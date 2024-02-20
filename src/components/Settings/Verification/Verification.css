@@ -1,0 +1,56 @@
+.verification{
+    width: calc(100% - 37.1633752244%);
+    padding:0 2.25rem;
+
+}
+.RO-VerificationGrid{
+    display: grid;
+    grid-template-columns: repeat(2,calc(50% - 20px));
+    gap: 20px;
+}
+.RO-VerificationPersonal{
+    margin-bottom: 77px !important;
+    position: relative;
+}
+.RO-VerificationPersonal h4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: var(--Second-Text, #A4A8AB);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.RO-VerificationIDPart{
+    /* display: grid;
+    grid-template-columns: repeat(3,auto); */
+   
+    display: flex;
+    gap: 20px;
+
+}
+.RO-Verfication2{
+    margin-bottom: 30px;
+}
+.RO-Verfication2 h3{
+
+    margin-top: 38px;
+    margin-bottom: 38px;
+    color: var(--Second-Text, #A4A8AB);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+@media screen and (max-width:1200px){
+    .RO-VerificationIDPart{
+        flex-direction: column;
+      
+    }
+
+}

@@ -1,0 +1,24 @@
+.RO-inputContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #12181F;
+    padding: 1rem;
+    border-radius: 20px;
+    /* width: calc((100% - 92px) / 2);   */
+}
+
+.RO-inputContainer .spanInput
+ {
+    width: 1px;
+    height: 10px;
+    opacity: 40%;
+    border: 1px solid #C3CDDB;
+}
+
+.RO-inputContainer input{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+

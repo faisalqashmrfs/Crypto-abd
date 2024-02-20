@@ -1,0 +1,12 @@
+.bh-ProfileSecondRow {
+    display: flex;
+    padding-top: 4rem;
+    flex-wrap: wrap;
+    row-gap: 4rem;
+}
+
+@media (max-width: 1200px) {
+    .bh-ProfileSecondRow {
+        column-gap: 2rem;
+    }
+}

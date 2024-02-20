@@ -1,0 +1,37 @@
+.bh-profileRow {
+    display: flex;
+    gap: 1rem;
+}
+.bh-profileRow  .profileRowBox {
+    width: calc((100% /4) - 1rem);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.bh-profileRow  .profileRowBox .profilePicture {
+    border-radius: 25px;
+}
+.bh-profileRow  .profileRowBox .verifiedBtn {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    color: #FB774A;
+    background: #F7931A26;
+    padding: 7px 13px;
+    border-radius: 12px;
+    margin-bottom: 0.7rem;
+}
+.bh-profileRow  .profileRowBox  .uidNum {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1200px) {
+    .bh-profileRow {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .bh-profileRow  .profileRowBox {
+        width: calc((100% /3) - 2rem);
+    }
+}

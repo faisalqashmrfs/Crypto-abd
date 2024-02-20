@@ -1,0 +1,100 @@
+.AB-PricList {
+    padding-left: 1.75rem;
+    padding-right: 1.8rem;
+}
+
+.AB-PricList .AB-First-PricList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    padding-left: 1.2rem;
+}
+
+.AB-PricList .AB-First-PricList .AB-title-PricList h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.AB-PricList .AB-First-PricList .AB-title-PricList span {
+    color: #919699;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.AB-PricList .AB-First-PricList .AB-First-PricList-end .AB-SelectRows-PricList {
+    border-radius: 1.25rem;
+    background: #12181F;
+}
+
+.AB-PricList .AB-First-PricList .AB-First-PricList-end .AB-SelectRows-PricList button {
+    background: none;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    color: #C2C2C2;
+    font-size: 0.875rem;
+    font-weight: 400;
+    gap: 1.6rem;
+    padding: 0.7rem 1.37rem 0.75rem 1.5rem;
+}
+
+.AB-PricList .AB-First-PricList .AB-First-PricList-end form {
+    position: relative;
+}
+
+.AB-PricList .AB-First-PricList .AB-First-PricList-end form #AB-searchInput-PricList {
+    color: white;
+    width: 21.625rem;
+    height: 3rem;
+    border-radius: 1.25rem;
+    background: #12181F;
+    padding: 10px 10px 10px 60px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+
+.AB-PricList .AB-First-PricList .AB-First-PricList-end form .AB-searchInput-PricList-icon {
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.AB-PricList .AB-First-PricList .AB-First-PricList-end .AB-PBH {
+    width: 7.8125rem;
+    height: 3rem;
+    border-radius: 1.25rem;
+    background: #12181F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.56rem;
+}
+
+.AB-PricList .AB-First-PricList .AB-First-PricList-end .AB-PBH button {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.AB-PricList .AB-First-PricList .AB-First-PricList-end .AB-PBH button:hover {
+    border-radius: 0.75rem;
+    background: #0CAF60;
+    padding: 0.37rem;
+}
+
+.AB-PricList .AB-First-PricList .AB-First-PricList-end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+

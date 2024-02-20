@@ -1,0 +1,21 @@
+.bh-topSecLanguage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-bottom: 2px solid #12181F;
+ }
+.bh-topSecLanguage .cancelBtn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+ }
+ .bh-topSecLanguage .languageTitle {
+     font-size: 18px;
+ }
+ .bh-topSecLanguage .cancelImg {
+     background-color: #12181F;
+     border-radius: 14px;
+ }

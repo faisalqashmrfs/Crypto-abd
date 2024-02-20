@@ -1,0 +1,36 @@
+.apexcharts-toolbar{
+    display: none !important;
+}
+.foreignObject{
+width: 340px;
+}
+/* tspan{
+    display: none !important;
+} */
+.app .row .mixed-chart .AB-ChartBalance{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1rem;
+}
+.app .row .mixed-chart .AB-ChartBalance h1{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+.app .row .mixed-chart .AB-ChartBalance p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #0CAF60;
+}
+.app .row .mixed-chart .AB-ChartBalance p span{
+    font-size: 10px;
+    font-weight: 400;
+    color: #A4A8AB;
+}
+#SvgjsTspan1332,#SvgjsTspan1335,#SvgjsTspan1338,#SvgjsTspan1341,#SvgjsTspan1344{
+    display: none !important;
+}
+line ,.apexcharts-yaxis{
+    display: none !important;
+}

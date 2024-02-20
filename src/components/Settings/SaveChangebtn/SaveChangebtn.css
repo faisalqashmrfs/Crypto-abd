@@ -1,0 +1,73 @@
+.RO-SaveChangeBtn {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid rgba(18, 24, 31, 1);
+    padding: 36px 0;
+    gap: 30px;
+}
+
+.RO-ButtonsSaveCancel {
+    display: flex;
+    gap: 20px;
+}
+
+.RO-ButtonsSaveCancel button {
+    width: 11.25rem;
+    height: 3.75rem;
+    flex-shrink: 2;
+    border-radius: 25px;
+    cursor: pointer;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.RO-ButtonsSaveCancel #RO-cancel {
+    background-color: #1C242E;
+}
+
+.RO-ButtonsSaveCancel #RO-save {
+    background-color: rgba(12, 175, 96, 1);
+}
+
+.RO-Date p:nth-child(1) {
+    color: var(--Second-Text, #A4A8AB);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.RO-Date p:nth-child(2) {
+    margin: 7px 0;
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (max-width:1290px) {
+    .RO-ButtonsSaveCancel button {
+        width: 8.25rem;
+        height: 2.75rem;
+    }
+
+}
+
+@media screen and (max-width:1150px) {
+    .RO-SaveChangeBtn {
+        flex-direction: column;
+    }
+
+}

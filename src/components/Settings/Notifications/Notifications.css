@@ -1,0 +1,23 @@
+.notifications {
+    color: white;
+    width: calc(100% - 37.1633752244%);
+    padding:0 2.25rem;
+
+}
+.RO-SettingBorder{
+    position: relative;
+}
+.RO-SettingBorder::after{
+    content: "";
+    position: absolute;
+    bottom: 1px; 
+    background-color:  rgba(48, 58, 70, 0.56);
+    height: 1px;
+    bottom: 1px ;
+    width: calc(100% - 106.9px) !important;
+    right: 0;
+}
+.RO-NotificationBody{
+    padding-right: 1.76rem;
+    padding-left: 0.63rem;
+}

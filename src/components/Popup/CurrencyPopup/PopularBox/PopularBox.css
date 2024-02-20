@@ -1,0 +1,37 @@
+.bh-popularBox {
+    width: calc(100% /4);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 20px;
+}
+.bh-popularBox:hover {
+    background-color: #C2C2C214;
+}
+.bh-popularBox .flagCountry {
+    width: 24px;
+}
+.bh-popularBox .currName {
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    white-space: nowrap;
+}
+.bh-popularBox .popularCurrAbbrev {
+    display: flex;
+    gap: 0.2rem;
+}
+.bh-popularBox .popularCurrAbbrev span {
+    font-size: 14px;
+    color: #A4A8AB;
+}
+
+@media (max-width: 1200px) {
+    .bh-popularBox {
+        width: calc(100% /2);
+    }
+    .bh-popularBox .currName {
+        font-size: 14px;
+    }
+}

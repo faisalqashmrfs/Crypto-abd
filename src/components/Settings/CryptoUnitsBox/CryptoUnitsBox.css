@@ -1,0 +1,20 @@
+.bh-cryptoUnitsBox {
+    width: calc((100% / 3) - 20px);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1.3rem;
+}
+.bh-cryptoUnitsBox .cryptoInfoTitle {
+    padding-bottom: 0.5rem;
+}
+.bh-cryptoUnitsBox .unitName {
+    font-size: 14px;
+    color: #A4A8AB;
+}
+
+@media (max-width: 1340px) {
+    .bh-cryptoUnitsBox {
+        width: calc((100% / 2) - 5px);
+    }
+}

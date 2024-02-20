@@ -1,0 +1,45 @@
+.bh-currencyPopup {
+    width: 74.7437774524%;
+    background-color: #161D26;
+    color: white;
+    border-radius: 38px;
+    position: absolute;
+    z-index: 100;
+    top: 4.5rem;
+    left: 12rem;
+    padding: 1rem;
+}
+.currencyOverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #00000099;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.bh-currencyPopup .searchBoxWrapper {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.bh-currencyPopup .searchBox {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #12181F;
+    padding: 0 1.5rem;
+}
+.bh-currencyPopup .searchBox .searchInput {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+}
+.bh-currencyPopup .searchBox .searchInput::placeholder {
+    color: #92929D;
+}
+.bh-currencyPopup .searchBox .searchInput:focus {
+    outline: none;
+}

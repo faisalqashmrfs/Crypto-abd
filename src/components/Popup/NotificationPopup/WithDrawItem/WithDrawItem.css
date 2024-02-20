@@ -1,0 +1,34 @@
+.bh-imgContainer {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4FBF67;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bh-notifiItemBox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.bh-notifiItemBox::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #1C242F;
+    top: 5.2rem;
+}
+.bh-notifiItemBox .complitedBtn {
+    border: none;
+    color: #0CAF60;
+    font-size: 14px;
+    background-color: #1F2F2F;
+    padding: 7px 13px;
+    border-radius: 12px;
+    height: 35px;
+    cursor: pointer;
+}

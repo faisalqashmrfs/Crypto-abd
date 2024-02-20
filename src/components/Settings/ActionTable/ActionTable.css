@@ -1,0 +1,33 @@
+.bh-actionTable {
+    width: 100%;
+    padding-left: 0.5rem;
+    border-collapse: collapse;
+}
+.bh-actionTable .arrowContainer {
+    position: relative;
+    padding-left: 0.5rem;
+}
+.bh-actionTable .arrowContainer img {
+    cursor: pointer;
+}
+.bh-actionTable .arrowContainer .topArrow{
+    position: absolute;
+}
+.bh-actionTable td {
+    padding: 1.3rem 1rem;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.bh-actionTable th {
+    padding: 1rem;
+    font-size: 12px;
+    text-align: left;
+    white-space: nowrap;
+}
+.bh-actionTable thead tr {
+    border-bottom: 1px solid #242D3999;
+}
+.bh-actionTable .logDate {
+    margin-right: 0.5rem;
+}

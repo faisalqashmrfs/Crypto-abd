@@ -1,0 +1,62 @@
+.AB-Candlestick {
+    width: 100%;
+}
+.apexcharts-toolbar{
+    display: none !important;
+}
+.AB-Candlestick .AB-FS{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.AB-Candlestick .AB-FS .AB-FirstCandlestick{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.AB-Candlestick .AB-FS .AB-FirstCandlestick .AB-Candlestick-Btn{
+    border: 1px solid #212A36;
+    border-radius: 10px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.AB-Candlestick .AB-FS .AB-FirstCandlestick .AB-Candlestick-Btn button{
+    outline: none;
+    border: none;
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+    background: none;
+}
+.AB-Candlestick .AB-FS .AB-FirstCandlestick .AB-Candlestick-Btn button:hover{
+    background: #212A36;
+    border-radius: 10px;
+    padding: 10px;
+}
+.AB-Candlestick .AB-FS .AB-FirstCandlestick .AB-iconCandlestick{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.AB-Candlestick .AB-FS .AB-SecondCandlestick .AB-GropBtnCandlestick{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.AB-Candlestick .AB-FS .AB-SecondCandlestick .AB-GropBtnCandlestick button{
+    border: none;
+    border: 1px solid #808195;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    background: none;
+    font-size: 10px;
+    font-weight: 400;
+    color: #C2C2C2;
+}
+.AB-Candlestick .AB-FS .AB-SecondCandlestick .AB-GropBtnCandlestick button:hover{
+    background: #0CAF60;
+}

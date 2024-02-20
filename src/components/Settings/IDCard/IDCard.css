@@ -1,0 +1,71 @@
+.RO-IDCard {
+    border-radius: 30px;
+    border: 1px dashed rgba(146, 146, 157, 0.49);
+    position: relative;
+    width: 14.3125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 14.3125rem;
+flex-shrink: 1;
+justify-content: space-between;
+
+}
+
+.RO-IDCard img {
+    width: 24px;
+    height: 24px;
+    margin: 0 auto 6px auto;
+    display: block;
+}
+.RO-IDCard h4{
+    text-align: center;
+    color: var(--White, #FFF);
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400 !important;
+line-height: normal;
+}
+.RO-IDCard button {
+    width: 100px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FB774A;
+    color: white;
+    border: none;
+    justify-self: flex-end !important;
+  
+}
+
+.RO-IDCard h5 {
+    position: absolute;
+    top: -12px;
+    color: var(--Second-Text, #A4A8AB);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+.RO-IDCard p {
+    color: var(--Second-Text, #A4A8AB);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 6px 8px !important;
+}
+
+@media screen and (max-width:1200px){
+    .RO-IDCard{
+        margin: auto;
+    }
+}

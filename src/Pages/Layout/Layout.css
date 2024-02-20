@@ -1,0 +1,11 @@
+.layout {
+    display: flex;
+}
+.layout .rightSecOfLayout {
+    width: 100%;
+}
+@media (max-width: 1085px) {
+    .layout .rightSecOfLayout {
+        width: 90%;
+    }
+}

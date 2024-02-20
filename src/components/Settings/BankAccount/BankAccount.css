@@ -1,0 +1,119 @@
+.RO-BankTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    margin: 29px 0;
+    padding-left: 0.44rem ;
+    padding-right: 0.44rem;
+}
+.RO-BankTitleImg{
+    display: flex;
+    align-items: center;
+}
+.RO-BankTitle img{
+    margin-right: 10px;
+}
+.RO-BankTitle h4{
+    display: inline-block;
+    
+color: var(--Second-Text, #A4A8AB);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.RO-Flex{
+    display: flex;
+    justify-content: space-between;
+}
+.RO-BankBody{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+.RO-Flex2{
+    display: flex;
+    gap: 15px ;
+    justify-content: space-between;
+}
+/*Black rectangle*/
+.RO-BankBlack{
+    width: 18.08256rem;
+    height: 10.5625rem;
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    padding: 23px 27.55px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+    /* background-image: linear-gradient(177deg, #12181F -13.49%, #161D26 109.75%); */
+    background-color: rgba(0, 0, 0, 1);
+
+}
+.RO-BankBlack h4{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal !important;
+    font-weight: 400;
+    line-height: normal;
+    
+    opacity: 0.54;
+
+}
+.RO-BankBlack p{
+    color: var(--White, #FFF);
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.RO-BankBlack .RO-Flex p{
+    color: var(--White, #FFF);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.5px;
+opacity: 0.9;
+}
+
+#RO-marginTopBank{
+    margin-top: 43.5px;
+}
+
+.RO-SettingBorder{
+    position: relative;
+}
+.RO-SettingBorder::after{
+    content: "";
+    position: absolute;
+    bottom: 1px; 
+    background-color:  rgba(48, 58, 70, 0.56);
+    height: 1px;
+    bottom: 1px ;
+    width: calc(100% - 117px);
+     right: 0;
+}
+
+
+
+@media screen and (max-width:1280px) {
+    .RO-BankBody{
+        flex-direction: column;
+    }
+    
+    
+}
+

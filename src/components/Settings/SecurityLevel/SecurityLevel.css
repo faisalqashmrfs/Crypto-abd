@@ -1,0 +1,41 @@
+.bh-levelWrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.bh-levelWrapper .levelQuestion {
+    display: flex;
+    align-items: center;
+}
+.bh-levelWrapper .securitySpan{
+    color: #FFFFFF;
+    font-weight: 600;
+    padding-bottom: 0.2rem;
+    border-bottom:  1px dashed #A4A8AB;
+    padding-bottom: 0.3rem;
+    padding-right: 0.3rem;
+    display: block;
+}
+.bh-levelWrapper .levelQuestion .questionIcon {
+    padding-bottom: 0.3rem;
+}
+.bh-levelWrapper .lowSpan {
+    color: #FF3E46;
+    font-weight: 600;
+    padding-top: 0.3rem;
+    display: block;
+}
+
+@media (max-width: 1230px) {
+    .bh-levelWrapper {
+        gap: 0.5rem;
+    }
+    .bh-levelWrapper .securityLevelIcon {
+        width: 40px;
+    }
+    .bh-levelWrapper .securitySpan,
+    .bh-levelWrapper .lowSpan {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+}

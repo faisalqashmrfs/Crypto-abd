@@ -1,0 +1,11 @@
+.bh-fiatCurrency {
+    padding: 2rem 2rem 0 2rem;
+}
+.bh-fiatCurrency .cryptoTitle {
+    color: #A4A8AB;
+}
+.bh-fiatCurrency .fiatCurrencyWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0.5rem;
+}

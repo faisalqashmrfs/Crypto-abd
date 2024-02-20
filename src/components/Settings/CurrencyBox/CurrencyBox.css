@@ -1,0 +1,35 @@
+.bh-popularCurrBox {
+    width: calc((100% / 3) - 20px);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+.bh-popularCurrBox:hover {
+    background-color: #1C242E;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.bh-popularCurrBox img {
+    width: 24px;
+}
+.bh-popularCurrBox .currencyInfoTitle {
+    font-size: 13px;
+    padding-bottom: 0.5rem;
+}
+.bh-popularCurrBox span {
+    font-size: 14px;
+    color: #A4A8AB;
+}
+.bh-popularCurrBox .spanBetween{
+    padding: 0 0.2rem;
+}
+
+@media (max-width: 1340px) {
+    .bh-popularCurrBox .currencyInfoTitle {
+        font-size: 13px;
+    }
+    .bh-popularCurrBox {
+        width: calc((100% / 2) - 10px);
+    }
+}

@@ -1,0 +1,57 @@
+.RO-MessagePart{
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.RO-MessagePartFlexImg{
+    display: flex;
+    gap: 10px;
+}
+.RO-MessagePartFlexImg img{
+    width: 55px;
+    height: 55px;
+    border: none !important;
+    outline: none !important;
+}
+
+.RO-MessagePartFlexImg p{
+    margin: 5px 0;
+    color: #A4A8AB;
+
+}
+.RO-MessagePartFlexDate{
+    display: flex;
+    gap: 13px;
+}
+.RO-MessagePartFlexDate p{
+    color: #A4A8AB;
+}
+
+.RO-MessagePartTitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.RO-MessagePartFlexDate h5{
+    background-color: #FF3E46;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+.RO-MessagePartText{
+    padding-left: 56px;
+    margin-top: 10px;
+}
+
+
+
+
+.RO-MessagePart:hover{
+    background-color: rgba(49, 58, 73, 0.24);
+    border-radius: 20px;
+}

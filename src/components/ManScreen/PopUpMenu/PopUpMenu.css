@@ -1,0 +1,95 @@
+.PopUp {
+    width: 1024px;
+    border-radius: 38px;
+    background: #161D26;
+    margin: auto;
+    position: absolute;
+    top: 49%;
+    left: 1%;
+    transform: translateY(-50%);
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.PopUp .AB-ContainerPopUp{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0px;
+}
+.PopUp .AB-ContainerPopUp .AB-ContainerPopUpChild .AB-ContainerPopUpChildCard{
+    display: flex;
+    gap: 1rem;
+    width: 320px;
+}
+.PopUp .AB-ContainerPopUp .AB-ContainerPopUpChild .AB-ContainerPopUpChildCard .AB-Image-Card{
+    position: relative;
+}
+.PopUp .AB-ContainerPopUp .AB-ContainerPopUpChild .AB-ContainerPopUpChildCard .AB-Image-Card .image-icon{
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.PopUp .AB-ContainerPopUp .AB-ContainerPopUpChild{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.PopUp .AB-ContainerPopUp .AB-ContainerPopUpChild .AB-ContainerPopUpChildCard .AB-title-Card h5{
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+}
+.PopUp .AB-ContainerPopUp .AB-ContainerPopUpChild .AB-ContainerPopUpChildCard .AB-title-Card p{
+    color: #A4A8AB;
+    font-size: 14px;
+    font-weight: 400;
+}
+.PopUp .AB-ContainerPopUp .AB-ContainerPopUpChild .AB-GropMenuP p{
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+.PopUp .AB-ContainerPopUp .AB-ContainerPopUpChild .AB-app-goople{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.PopUp .AB-ContainerPopUp .AB-ContainerPopUpChild .AB-app-goople .AB-app-goople-Box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #252D37;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+.PopUp .AB-ContainerPopUp .AB-ContainerPopUpChild .AB-app-goople .AB-app-goople-Box .AB-app-goople-Box-Title span{
+    font-size: 10px;
+    font-weight: 300;
+    color: rgba(254, 254, 254, 54%);
+    width: max-content;
+}
+.PopUp .AB-ContainerPopUp .AB-ContainerPopUpChild .AB-app-goople .AB-app-goople-Box .AB-app-goople-Box-Title p{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.BA-BlurBackground {
+    backdrop-filter: blur(1px);
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+  }
+@media screen and (max-width:700px) {
+    .PopUp{
+        width: 90%;
+        height: auto;
+        padding: 1rem;
+    }
+}

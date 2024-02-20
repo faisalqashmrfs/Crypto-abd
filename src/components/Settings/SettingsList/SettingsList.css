@@ -1,0 +1,41 @@
+.settingsList {
+    display: flex;
+    justify-content: space-between;
+    width: 37.1633752244%;
+}
+.settingsList li {
+    list-style-type: none;
+}
+.settingsList .list {
+    padding: 0;
+}
+.settingsList .list .listItem .link {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2.5rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+.settingsList .list .listItem .link.active .itemIcon {
+    background-color: #0CAF60;
+}
+.settingsList .list .listItem .itemIcon {
+    background-color: #12181F;
+    color: #FFFFFF;
+    padding: 14px;
+    border-radius: 16px;
+    margin-right: 0.5rem;
+}
+.settingsList .list .itemBox .itemTitle {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0;
+}
+.settingsList .list .itemBox .itemSubtitle {
+    color: #A4A8AB;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;
+}

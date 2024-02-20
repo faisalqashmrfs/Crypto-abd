@@ -1,0 +1,310 @@
+/* ========================= */
+
+.AB-DeposittWithdraw .AB-title-Deposit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.75rem;
+}
+
+.AB-DeposittWithdraw .AB-title-Deposit h2,
+.AB-DeposittWithdraw .AB-title-Deposit .AB-title-Withdraw {
+    color: #FFF;
+    font-weight: 600;
+}
+
+.AB-DeposittWithdraw .AB-title-Deposit .AB-title-Withdraw {
+    display: none;
+}
+
+.AB-DeposittWithdraw .AB-title-Deposit button {
+    border: none;
+    outline: none;
+    display: inline-flex;
+    padding: 0.75rem;
+    align-items: center;
+    gap: 0.375rem;
+    border-radius: 1rem;
+    background: rgba(0, 0, 0, 0.38);
+    backdrop-filter: blur(10.5px);
+    cursor: pointer;
+}
+
+/* ============================== */
+.AB-DeposittWithdraw .AB-Crypto-Fiat {
+    width: 10.8125rem;
+    height: 3.4375rem;
+    border-radius: 1.25rem;
+    border: 1px solid #212A36;
+    backdrop-filter: blur(21px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.AB-DeposittWithdraw .AB-Crypto-Fiat button {
+    color: #A4A8AB;
+    font-size: 0.75rem;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.AB-DeposittWithdraw .AB-Crypto-Fiat button:hover {
+    color: white;
+    width: 5.3125rem;
+    height: 2.6875rem;
+    border-radius: 0.9375rem;
+    background: #0CAF60;
+}
+
+/* ================== */
+.AB-DeposittWithdraw .AB-Coin {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.AB-DeposittWithdraw .AB-Coin p {
+    color: #A4A8AB;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.AB-DeposittWithdraw .AB-Coin .AB-Select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    background-color: #12181F;
+    border-radius: 1.0625rem;
+    padding: 0px 0.6rem;
+}
+
+.AB-DeposittWithdraw .AB-Coin .AB-Select .AB-select-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.AB-DeposittWithdraw .AB-Coin .AB-Select .AB-select-option .AB-img-crypto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    width: 7.375rem;
+    height: 2.75rem;
+    border-radius: 1.0625rem;
+    background: #161D26;
+}
+
+.AB-DeposittWithdraw .AB-Coin .AB-Select .AB-select-option img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.AB-DeposittWithdraw .AB-Coin .AB-Select .AB-select-option .AB-img-crypto span {
+    color: #FFF;
+    font-weight: 600;
+}
+
+.AB-DeposittWithdraw .AB-Coin .AB-Select img {
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 1.0625rem;
+    background: #161D26;
+    cursor: pointer;
+}
+
+/* ======================== */
+.AB-DeposittWithdraw .AB-Balance {
+    color: #FFF;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin: 2rem 0px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.AB-DeposittWithdraw .AB-Balance button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: none;
+}
+
+.AB-DeposittWithdraw .AB-Balance span {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* ====================== */
+.AB-DeposittWithdraw .AB-Address {
+    margin-bottom: 2.5rem;
+}
+
+.AB-DeposittWithdraw .AB-Address h4 {
+    color: #A4A8AB;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-bottom: 0.8rem;
+}
+
+.AB-DeposittWithdraw .AB-Address .AB-code {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1.5625rem;
+    background: #12181F;
+    width: 100%;
+    height: 4rem;
+    padding: 0px 0.7rem 0px 1.3rem;
+}
+
+.AB-DeposittWithdraw .AB-Address .AB-code p {
+    color: #FFF;
+    font-weight: 600;
+}
+
+.AB-DeposittWithdraw .AB-Address .AB-code button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1.0625rem;
+    background: #0CAF60;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    color: white;
+    width: 7.125rem;
+    height: 2.9375rem;
+    cursor: pointer;
+}
+
+/* ==================================== */
+.AB-DeposittWithdraw .AB-Tips {
+    margin-bottom: 3rem;
+}
+
+.AB-DeposittWithdraw .AB-Tips h2 {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.AB-DeposittWithdraw .AB-Tips ul {
+    width: 100%;
+    border-radius: 1.5625rem;
+    background: #12181F;
+    padding: 1rem 2rem 1rem 3rem;
+}
+
+.AB-DeposittWithdraw .AB-Tips ul li::marker {
+    color: #0CAF60;
+}
+
+.AB-DeposittWithdraw .AB-Tips ul li {
+    color: #A4A8AB;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 1rem 0px;
+}
+
+/* Withdraw Address */
+.AB-DeposittWithdraw .AB-Withdraw-Address {
+    display: none;
+}
+
+.AB-DeposittWithdraw .AB-Withdraw-Address form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.AB-DeposittWithdraw .AB-Withdraw-Address form .AB-The-input {
+    position: relative;
+}
+
+.AB-DeposittWithdraw .AB-Withdraw-Address form .AB-The-input input {
+    width: 100%;
+    height: 4rem;
+    border-radius: 1.5625rem;
+    background: #12181F;
+    border: none;
+    outline: none;
+    padding-left: 3rem;
+    color: white;
+}
+
+.AB-DeposittWithdraw .AB-Withdraw-Address form .AB-The-input div {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 0px 1.6rem 0px 1.13rem;
+}
+
+.AB-DeposittWithdraw .AB-Withdraw-Address form .AB-The-input div label {
+    display: flex;
+    align-items: center;
+}
+
+.AB-DeposittWithdraw .AB-Withdraw-Address form .AB-The-input div button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: #A4A8AB;
+    text-align: right;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+.AB-DeposittWithdraw .AB-Withdraw-Address form .AB-Transaction-submit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0px;
+}
+
+.AB-DeposittWithdraw .AB-Withdraw-Address form .AB-Transaction-submit button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 1.25rem;
+    background: #0CAF60;
+    width: 14rem;
+    height: 3.75rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    color: #FFF;
+    font-family: Vazir;
+    font-weight: 400;
+}
+
+.AB-DeposittWithdraw .AB-Withdraw-Address form .AB-Transaction-submit p {
+    color: #A4A8AB;
+    font-family: Vazir;
+    font-weight: 400;
+}
+
+.AB-DeposittWithdraw .AB-Withdraw-Address form .AB-Transaction-submit p span {
+    color: #FFF;
+    font-weight: 400;
+}

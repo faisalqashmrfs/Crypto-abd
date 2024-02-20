@@ -1,0 +1,68 @@
+.bh-notificationOverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #00000099;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.bh-NotificationPopup {
+    width: 388px;
+    background-color: #161D26;
+    color: white;
+    position: absolute;
+    right: 0;
+    z-index: 100;
+    border-radius: 38px;
+    right: 1rem;
+    top: 5.8rem;
+    padding-top: 1rem;
+}
+.bh-NotificationPopup::before {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border: 0.6rem solid transparent;
+    border-bottom-color: #161D26;
+    top: -1.1rem;
+    right: 14%;
+}
+.bh-NotificationPopup .notifiList {
+    list-style-type: none;
+}
+.bh-NotificationPopup .notifiList .notifiItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+}
+.bh-NotificationPopup .notifiList .notifiItem.logInItem {
+    background-color: #1E26317D;
+}
+.bh-NotificationPopup .viewContainer {
+    display: flex;
+    justify-content: center;
+    background-color: #1E2631;
+    border-bottom-right-radius: 38px;
+    border-bottom-left-radius: 38px;
+}
+.bh-NotificationPopup .viewBtn {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+@media (max-width: 1030px) {
+    .bh-NotificationPopup::before {
+        right: 10%;
+    }
+}

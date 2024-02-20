@@ -1,0 +1,16 @@
+.settings {
+    color: white;
+    position: absolute;
+    top: 6.25rem;
+    right: 0;
+    width: calc(100% - 18.4480234261%);
+    display: flex;
+    padding: 3rem 3rem 0 0;
+}
+
+@media (max-width: 1085px) {
+    .settings {
+        width: 90%;
+        padding-left: 2rem;
+    }
+}

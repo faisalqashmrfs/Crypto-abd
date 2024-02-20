@@ -1,0 +1,24 @@
+.bh-cryptoUnitsBoxPopup {
+    width: calc(100% / 4);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 20px;
+}
+.bh-cryptoUnitsBoxPopup .cryptoName {
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+}
+.bh-cryptoUnitsBoxPopup .cryptoDesc {
+    font-size: 14px;
+    color: #A4A8AB;
+}
+
+@media (max-width: 1200px) {
+    .bh-cryptoUnitsBoxPopup {
+        width: calc(100% /2);
+    }
+    .bh-cryptoUnitsBoxPopup .cryptoName {
+        font-size: 14px;
+    }
+}

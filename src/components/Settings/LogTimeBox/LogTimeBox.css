@@ -1,0 +1,27 @@
+.bh-logTimeWrapper  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+ }
+.bh-logTimeWrapper .timeBox {
+     display: flex;
+     gap: 0.5rem;
+ }
+.bh-logTimeWrapper .timeBox .timeBtn {
+     font-size: 10px;
+     line-height: 15px;
+     color: #C2C2C2;
+     border: none;
+     background-color: transparent;
+     cursor: pointer;
+     border: 1px solid #8081954D;
+     padding:  0.5rem 1rem;
+     border-radius: 10px;
+     width: 46px;
+     display: flex;
+     justify-content: center;
+ }
+.bh-logTimeWrapper .timeBox .timeBtn.active {
+     background-color: #0CAF60;
+ }

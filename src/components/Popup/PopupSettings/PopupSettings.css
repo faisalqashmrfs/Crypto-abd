@@ -1,0 +1,101 @@
+.bh-settingsOverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #00000099;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.bh-popupSettings {
+    width: 388px;
+    background-color: #161D26;
+    color: white;
+    position: absolute;
+    right: 0;
+    z-index: 100;
+    border-radius: 38px;
+    right: 1rem;
+    top: 5.8rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+.bh-popupSettings::before {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border: 0.6rem solid transparent;
+    border-bottom-color: #161D26;
+    top: -1.1rem;
+    right: 32%;
+}
+.bh-popupSettings .popupSettingsList {
+    list-style-type: none;
+    padding: 0 1.5rem;
+}
+.bh-popupSettings .popupSettingsList .popupSettingsItem {
+    display: flex;
+    align-items: center;
+    padding:  1rem 0;
+    border-bottom: 1px solid #1C242F;
+    height: 65px;
+}
+.bh-popupSettings .popupSettingsList .popupSettingsItem .itemTitle{
+    width: calc(100% / 2);
+    font-size: 16px;
+}
+.bh-popupSettings .popupSettingsList .rightOfItem {
+    width: calc(100% / 2);
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    cursor: pointer;
+}
+.bh-popupSettings .popupSettingsList .rightOfItem .currencyFlag {
+    width: 24px;
+    height: 24px;
+}
+.bh-popupSettings .popupSettingsList .rightOfItem .currencyName {
+    font-size: 16px;
+}
+.bh-popupSettings .popupSettingsList .rightOfItem.modeBox {
+    border-radius: 1.25rem;
+    background: #12181F;
+    padding: 0.3rem;
+    justify-content: center;
+}
+.bh-popupSettings .popupSettingsList .rightOfItem button {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+.bh-popupSettings .popupSettingsList .rightOfItem button.active {
+    border-radius: 0.875rem;
+    background: #0CAF60;
+}
+.allSettingsBox {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.allSettingsBox button {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+@media (max-width: 1030px) {
+    .bh-popupSettings::before {
+        right: 28%;
+    }
+}

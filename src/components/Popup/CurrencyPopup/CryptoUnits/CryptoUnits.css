@@ -1,0 +1,20 @@
+.bh-cryptoUnitsPopup {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.bh-cryptoUnitsPopup .cryptoTitle {
+    color: #A4A8AB;
+}
+.bh-cryptoUnitsPopup .cryptoUnitsWrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+@media (max-width: 1200px) {
+    .bh-cryptoUnitsPopup .cryptoUnitsWrapper  {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

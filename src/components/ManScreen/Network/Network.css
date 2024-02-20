@@ -1,0 +1,95 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.AB-Network {
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-right: 3.5rem;
+}
+
+.AB-Network .AB-title-Network {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.AB-Network .AB-group-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+    width: 21.25rem;
+    height: 3.4375rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    border: 1px solid #212A36;
+    backdrop-filter: blur(21px);
+}
+
+.AB-Network .AB-group-btns button {
+    outline: none;
+    border: none;
+    background: none;
+    color: #A4A8AB;
+}
+
+.AB-Network .AB-group-btns button:hover {
+    width: 4.8125rem;
+    height: 2.6875rem;
+    border-radius: 0.9375rem;
+    background: #212A36;
+}
+
+.AB-Network .AB-Average-Time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: #A4A8AB;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.AB-Network .AB-Average-Time span {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.AB-Network .AB-Scan-QR-code {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    display: none;
+}
+
+.AB-Network .AB-Scan-QR-code h3 {
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+.AB-Network .AB-Warning {
+    margin-top: 4rem;
+}
+.AB-Network .AB-Warning h3 {
+    color: #FFF;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.AB-Network .AB-Warning p {
+    color: #A4A8AB;
+    font-weight: 400;
+}

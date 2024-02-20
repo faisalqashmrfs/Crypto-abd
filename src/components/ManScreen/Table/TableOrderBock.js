@@ -1,0 +1,69 @@
+export const TableOrderBock = [
+{
+    CPriceUSDT:"AB-PriceUSDT",
+    PriceUSDT:"43.114",
+    Amount:"3396.4537",
+    Total:"3,397.1437"
+},
+{
+    CPriceUSDT:"AB-PriceUSDT",
+    PriceUSDT:"43.114",
+    Amount:"3396.4537",
+    Total:"3,397.1437"
+},
+{
+    CPriceUSDT:"AB-PriceUSDT",
+    PriceUSDT:"43.114",
+    Amount:"3396.4537",
+    Total:"3,397.1437"
+},
+{
+    CPriceUSDT:"AB-PriceUSDT",
+    PriceUSDT:"43.114",
+    Amount:"3396.4537",
+    Total:"3,397.1437"
+},
+{
+    CPriceUSDT:"AB-PriceUSDT",
+    PriceUSDT:"43.114",
+    Amount:"3396.4537",
+    Total:"3,397.1437"
+},
+{
+    CPriceUSDT:"AB-PriceUSDT",
+    PriceUSDT:"43.114",
+    Amount:"3396.4537",
+    Total:"3,397.1437"
+},
+{
+    CPriceUSDT:"AB-PriceUSDT",
+    PriceUSDT:"43.114",
+    Amount:"3396.4537",
+    Total:"3,397.1437"
+},
+{
+    CPriceUSDT:"AB-PriceUSDT",
+    PriceUSDT:"43.114",
+    Amount:"3396.4537",
+    Total:"3,397.1437"
+},
+{
+    CPriceUSDT:"AB-PriceUSDT",
+    PriceUSDT:"43.114",
+    Amount:"3396.4537",
+    Total:"3,397.1437"
+},
+{
+    CPriceUSDT:"AB-PriceUSDT",
+    PriceUSDT:"43.114",
+    Amount:"3396.4537",
+    Total:"3,397.1437"
+},
+{
+    CPriceUSDT:"AB-PriceUSDT",
+    PriceUSDT:"43.114",
+    Amount:"3396.4537",
+    Total:"3,397.1437"
+},
+
+]

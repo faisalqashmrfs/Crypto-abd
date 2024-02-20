@@ -1,0 +1,236 @@
+.bh-profileForm {
+    padding-top: 2rem;
+}
+.bh-profileForm .formTitle,
+.bh-profileForm .contactTitle {
+    color: #A4A8AB;
+    padding-left: 3rem;
+}
+.bh-profileForm .contactTitle {
+    padding-top: 2rem;
+}
+.bh-profileForm .topFormInfo {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.bh-inputContainer,
+ .bh-selectLocation {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+.bh-inputContainer,
+ .bh-selectLocation,
+ .bh-selectPhone {
+    width: calc((100% / 2) - 20px);
+    height: 56px;
+    background-color: #12181F;
+    border-radius: 20px;
+}
+.bh-inputContainer {
+    padding: 1rem;
+}
+.bh-selectLocation,
+.bh-selectPhone {
+    padding: 0.5rem 1rem;
+ }
+.bh-selectLocation {
+    position: relative;
+}
+.bh-inputContainer .spanInput,
+.bh-selectLocation span {
+    width: 1px;
+    height: 10px;
+    opacity: 40%;
+    border: 1px solid #C3CDDB;
+}
+.bh-inputContainer .textInput{
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    color: #808195;
+    width: 100%;
+}
+.bh-inputContainer .textInput:focus,
+.bh-selectLocation .selectBox:focus,
+.bh-selectPhone .options .searchBox:focus {
+    outline: none;
+}
+
+.bh-profileForm .contactWrapper {
+    padding: 2rem 2rem 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-bottom: 2px solid #12181F;
+}
+.bh-selectLocation .selectBox {
+    width: 100%;
+    border: none;
+    background: transparent;
+    color: #808195;
+    font-size: 14px;
+    background-color: #12181F;
+    cursor: pointer;
+}
+.bh-selectLocation .selectIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+    background-color: #161D26;
+    position: absolute;
+    right: 10px;
+}
+.bh-selectPhone {
+    position: relative;
+}
+.bh-selectPhone .countryFalg {
+    width: 30px;
+    height: 20px;
+    border-radius: 4px;
+}
+.bh-selectPhone .selected-option {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.bh-selectPhone .selected-option div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+.bh-selectPhone .selected-option input {
+    background-color: transparent;
+    border: none;
+    color: #808195;
+    margin-left: 0.5rem;
+}
+.bh-selectPhone .selected-option input:focus {
+    outline: none;
+}
+.bh-selectPhone .options {
+    position: absolute;
+    top: 4rem;
+    background-color: #12181F;
+    width: 100%;
+    border-radius: 20px;
+    display: none;
+}
+.bh-selectPhone .options.active {
+    display: block;
+}
+.bh-selectPhone .options::before {
+    position: absolute;
+    content: "";
+    left: 1rem;
+    top: -1.1rem;
+    width: 0;
+    height: 0;
+    border: .6rem solid transparent;
+    border-bottom-color: #12181F;
+}
+.bh-selectPhone .options .searchBox {
+    width: 100%;
+    background-color: transparent;
+    padding: 1.4rem 1rem;
+    border: none;
+    border-bottom: 0.1rem solid #eeeeee1f;
+    color: #808195;
+}
+.bh-selectPhone .options ol {
+    list-style: none;
+    max-height: 13rem;
+    overflow: overlay;
+}
+.bh-selectPhone .options ol::-webkit-scrollbar {
+    width: 0.6rem;
+}
+.bh-selectPhone .options ol::-webkit-scrollbar-thumb {
+    width: 0.4rem;
+    height: 3rem;
+    background-color: #ccc;
+    border-radius: .4rem;
+}
+
+.bh-selectPhone .options ol li {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.bh-selectPhone .options ol li:hover {
+    background-color: #1C242E;
+}
+.bh-selectPhone .options ol li:not(:last-child) {
+    border-bottom: .1rem solid #eeeeee1f;
+}
+.bh-selectPhone .options ol li .leftSecOption {
+    display: flex;
+    align-items: center;
+}
+.bh-selectPhone .options ol li .leftSecOption .countryName {
+    margin-left: 0.5rem;
+    font-size: 12px;
+}
+.bh-selectPhone .options .flagImg {
+    width: 30px;
+    height: 20px;
+    border-radius: 4px;
+}
+.bh-selectPhone .options .option {
+    display: flex;
+}
+.bh-profileForm .rowOfBtns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+}
+.bh-profileForm .rowOfBtns .dateContainer .dateLabel {
+    font-size: 14px;
+    color:#A4A8AB;
+}
+.bh-profileForm .rowOfBtns .dateContainer .accountDate {
+    color: #FFFFFF;
+    padding-top: 0.5rem;
+}
+.bh-profileForm .btnContainer button {
+    width: 130px;
+    border: none;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 16px;
+    background: transparent;
+    color: #FFFFFF;
+}
+.bh-profileForm .btnContainer .cancelBtn {
+    background-color: #1C242E;
+}
+.bh-profileForm .btnContainer .saveBtn {
+    background-color: #0CAF60;
+}
+.bh-profileForm .rowOfBtns .btnContainer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+@media (max-width: 1200px) {
+    .bh-profileForm .rowOfBtns .dateContainer .accountDate {
+        font-size: 14px;
+    }
+    .bh-inputContainer,
+    .bh-selectLocation,
+    .bh-selectPhone {
+        width: 70%;
+        height: 56px;
+    }
+}

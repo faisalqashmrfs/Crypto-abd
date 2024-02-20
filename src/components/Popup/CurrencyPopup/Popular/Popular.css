@@ -1,0 +1,19 @@
+.bh-popular {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.bh-popular .popularTitle {
+    color: #A4A8AB;
+}
+.bh-popular  .popularWrapper {
+    display: flex;
+    padding-top: 0.5rem;
+}
+
+@media (max-width: 1200px) {
+    .bh-popular  .popularWrapper {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

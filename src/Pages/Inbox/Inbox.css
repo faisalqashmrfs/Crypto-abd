@@ -1,0 +1,8 @@
+.RO-inbox{
+    margin: 2.19rem 1.69rem;
+    padding: 1.25rem 1.38rem;
+    display: grid;
+    grid-template-columns: 31.5% 67% ;
+    gap: 1.5%;
+
+}

@@ -1,0 +1,17 @@
+.bh-securityInfo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+    align-items: flex-start;
+}
+.bh-securityInfo .securityPassIcon {
+    color: #0CAF60;
+}
+.bh-securityInfo .bh-innerBox .passInfoTilte {
+    padding-bottom: 0.5rem;
+}
+.bh-securityInfo .bh-innerBox .passInfoPara {
+    font-size: 12px;
+    color:#A4A8AB;
+}

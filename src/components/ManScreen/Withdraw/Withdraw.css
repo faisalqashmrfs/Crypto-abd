@@ -1,0 +1,21 @@
+.AB-page-Withdraw {
+    width: 100%;
+    display: flex;
+    gap: 5rem;
+    margin-top: 4.5rem;
+    padding-left: 4rem;
+}
+
+.AB-page-Withdraw .AB-DeposittWithdraw .AB-Withdraw-Address,
+.AB-page-Withdraw .AB-DeposittWithdraw .AB-Balance button 
+{
+    display: block;
+}
+.AB-page-Withdraw .AB-Network .AB-Scan-QR-code{
+    display: flex;
+}
+.AB-page-Withdraw .AB-DeposittWithdraw .AB-Address,
+.AB-page-Withdraw .AB-QRCode,
+.AB-page-Withdraw .AB-DeposittWithdraw .AB-Tips ul .li-4 {
+    display: none;
+}

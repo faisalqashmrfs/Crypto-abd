@@ -1,0 +1,93 @@
+.AB-Assets{
+    margin: 3rem 2rem;
+}
+.AB-FirstAssets{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.AB-FirstAssets .AB-CurrentBalance{
+    position: relative;
+}
+.AB-FirstAssets .AB-CurrentBalance .AB-text-CurrentBalance{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.AB-FirstAssets .AB-CurrentBalance .AB-text-CurrentBalance .AB-Span{
+    font-weight: 400;
+    color: white;
+}
+.AB-FirstAssets .AB-CurrentBalance .AB-text-CurrentBalance .AB-P1{
+    font-weight: 600;
+    font-size: 48px;
+    color: white;
+}
+.AB-FirstAssets .AB-CurrentBalance .AB-text-CurrentBalance .AB-P2{
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+.AB-FirstAssets .AB-CericlBalance{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.AB-FirstAssets .AB-CericlBalance ul{
+    list-style: none;
+}
+.AB-FirstAssets .AB-CericlBalance ul li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    line-height: 24px; 
+    color: #fff;
+    font-weight: 600;   
+}
+.AB-FirstAssets .AB-CericlBalance ul li span{
+    font-weight: 400;
+    font-size: 14px;
+    color: #C2C2C2;
+}
+/* =================== */
+.AB-custom-line{
+    height: 3px;
+    background: linear-gradient(to right, #0CAF60 50%, #12181F 50%);
+}
+.AB-custom-line1{
+    height: 3px;
+    background: linear-gradient(to right, #26A17B 50%, #12181F 50%);
+}
+.AB-custom-line2{
+    height: 3px;
+    background: linear-gradient(to right, #FB774A 50%, #12181F 50%);
+}
+.AB-custom-line3{
+    height: 3px;
+    background: linear-gradient(to right, #ED6167 50%, #12181F 50%);
+}
+.AB-SecondAssets{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0px;
+    padding: 0px 1.2rem;
+}
+.AB-SecondAssets .AB-RangAccount p{
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+}
+.AB-SecondAssets .AB-RangAccount .AB-RangAccount-img-p{
+    margin-bottom: 5px;
+}
+.AB-SecondAssets .AB-RangAccount .AB-RangAccount-img-p p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #C2C2C2;
+}

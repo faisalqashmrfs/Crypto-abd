@@ -1,0 +1,220 @@
+table {
+    width: 100%;
+}
+
+table thead td img {
+    padding-left: 0.32rem;
+}
+table thead td .AB-Img2-Plas{
+    padding: 0px;
+}
+table thead {
+    position: relative;
+}
+
+table thead td {
+    color: #FFF;
+    font-size: 0.75rem;
+    font-weight: 400;
+    padding-left: 1rem
+}
+
+table tbody tr td {
+    color: var(--White, #FFF);
+    font-size: 0.875rem;
+    font-weight: 400;
+    height: 4rem;
+    padding-left: 1.2rem;
+}
+
+table tbody tr td .name-crypto span {
+    color: var(--Second-Text, #A4A8AB);
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+.Img-And-Name{
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+}
+.container{
+    height: 32px;
+    width: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    color: #0CAF60;
+    border: 1px solid #12BE73;
+    border-radius: 40px;
+}
+.AB-BtnTradePricList button{
+    outline: none;
+    background: none;
+    border: 1px solid #363B47;
+    padding: 7px 14px;
+    border-radius: 10px;
+    color: #C2C2C2;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+}
+.AB-AvailableBalance{
+    display: flex;
+    flex-direction: column;   
+    gap: 5px; 
+}
+.AB-AvailableBalance span{
+    color: #A4A8AB;
+    font-weight: 400;
+    font-size: 12px;
+}
+.GropBtn{
+    display: flex;
+    gap: 6px;
+}
+.GropBtn button{
+    border: 1px solid #363B47;
+    padding: 7px 14px;
+    outline: none;
+    background: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.GropBtn button a{
+    color: #C2C2C2;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+}
+.GropBtn button:hover{
+    background-color: #0CAF60;
+}
+/* ======================== */
+.AB-Transaction p{
+    font-weight: 600;
+}
+.AB-Transaction span{
+    color: #A4A8AB;
+    font-weight: 400;
+    font-size: 14px;
+}
+.AB-Type{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.AB-Type p{
+    font-weight: 400;
+    font-size: 12px;
+    color: #FF3E46;
+    padding-top: 5px;
+}
+.AB-Status{
+    color: #0CAF60;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 7px 13px;
+    border-radius: 12px;
+    background-color: #1F2F2F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* =============== */
+.AB-End-PAT {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0px;
+    padding-left: 1.2rem;
+
+}
+
+.AB-LoadMorePAT {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    border: none;
+    outline: none;
+    background: none;
+    color: #E5E5E5;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.AB-itemPAT {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.AB-itemPAT p {
+    color: #FFF;
+    font-weight: 600;
+}
+
+.AB-itemPAT span {
+    color: #A4A8AB;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.AB-Slider{
+    display: flex;
+    gap: 0.8rem;
+}
+.AB-Slider button {
+    border-radius: 1.25rem;
+    border: 1px solid #303A46;
+    outline: none;
+    background: none;
+    width: 3.125rem;
+    height: 3.125rem;
+    color: #FFF;
+    font-weight: 400;
+    cursor: pointer;
+}
+table tfoot td{
+    padding-left: 1.2rem;
+}
+.AB-div6, .AB-div6 tbody tr td{
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+.AB-div6 .AB-AllPairs, .AB-div6 .AB-Action{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.AB-div6 .AB-AllPairs{
+    color: #0CAF60;
+}
+.AB-div6 tbody tr td{
+    height: 2.5rem;
+}
+.AB-div4 tbody tr td, .AB-div5 tbody tr td {
+    height: 2.5rem;
+}
+.AB-TableOrderBock h1{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 0px 0px 1rem 1.2rem;
+}
+.AB-PriceUSDT, .AB-PriceUSDT1{
+    color: #EB6D71;
+}
+@media (max-width: 1085px){
+    table{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

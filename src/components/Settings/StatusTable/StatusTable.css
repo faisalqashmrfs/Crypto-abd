@@ -1,0 +1,49 @@
+.bh-statusTable {
+    width: 100%;
+    padding-left: 0.5rem;
+    border-collapse: collapse;
+}
+.bh-statusTable .arrowContainer {
+    position: relative;
+    padding-left: 0.5rem;
+}
+.bh-statusTable .arrowContainer img {
+    cursor: pointer;
+}
+.bh-statusTable .arrowContainer .topArrow{
+    position: absolute;
+}
+.bh-statusTable td {
+    padding: 1rem;
+    font-size: 12px;
+}
+.bh-statusTable th {
+    padding: 1rem;
+    font-size: 12px;
+    text-align: left;
+    white-space: nowrap;
+}
+.bh-statusTable thead tr {
+    border-bottom: 1px solid #242D3999;
+}
+.bh-statusTable .logDate {
+    margin-right: 0.5rem;
+}
+.bh-statusTable .secondCell {
+    padding-right: 4rem;
+}
+.bh-statusTable button {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    padding: 0.6rem 1rem;
+    border-radius: 10px;
+}
+.bh-statusTable .succeedBtn {
+    color: #0CAF60;
+    background-color: #1F2F2F;
+}
+.bh-statusTable .failedBtn {
+    color: #FF5449;
+    background-color: #332229;
+}

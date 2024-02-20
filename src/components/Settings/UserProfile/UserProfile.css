@@ -1,0 +1,11 @@
+.bh-userProfile {
+    color: white;
+    /* width: calc(100% - 18.4480234261%); */
+    padding: 4rem 3rem 0 3rem;
+}
+
+/* @media (max-width: 1085px) {
+    .bh-userProfile  {
+        padding-left: 2rem;
+    }
+} */

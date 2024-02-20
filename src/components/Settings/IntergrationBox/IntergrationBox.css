@@ -1,0 +1,36 @@
+.RO-IntergrationBox{
+    min-width: 180px;
+height: 135px;
+flex-shrink: 0;
+border-radius: 30px;
+background-color: rgba(28, 36, 46, 1);
+padding: 20px;
+display: grid;
+}
+.RO-IntergrationBoxTitle{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+
+}
+.RO-IntergrationBoxImg{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    height: 30px;
+    align-items: center;
+}
+.RO-IntergrationBoxImg img{
+    width: 30px;
+    height: 30px;
+}
+
+#RO-IntergrationBoxText{
+    color: #B3B3B3;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

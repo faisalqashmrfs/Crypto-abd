@@ -1,0 +1,17 @@
+.AB-Tfoot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0px;
+    padding-left: 1.2rem;
+}
+.AB-Tfoot p{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.AB-Tfoot span{
+    color: #A4A8AB;
+    font-weight: 400;
+    font-size: 14px;
+}

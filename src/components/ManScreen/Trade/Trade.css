@@ -1,0 +1,80 @@
+.AB-FirstTrade{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 1rem;
+}
+.AB-SidebarTrade{
+    width: 10%;
+}
+.AB-BTCUSDT{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2rem;
+    margin: 2rem 0px;
+}
+.AB-BTCUSDT .AB-BTCUSDT-Card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.AB-BTCUSDT .AB-BTCUSDT-Card .AB-BTCUSDT-TCard .AB-BTCUSDT-TCardAndSpan{
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.AB-BTCUSDT .AB-BTCUSDT-Card .AB-BTCUSDT-TCard .AB-BTCUSDT-TCardAndSpan span{
+    color: #0CAF60;
+    font-size: 10px;
+    font-weight: 400;
+    border: 1px solid #0CAF60;
+    border-radius: 6px;
+    padding: 0.5rem 0.4rem;
+}
+.AB-BTCUSDT .AB-BTCUSDT-Card .AB-BTCUSDT-TCard p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #A4A8AB;
+}
+.AB-BTCUSDT .AB-BTCUSDT-Box p{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.AB-BTCUSDT .AB-BTCUSDT-Box span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #A4A8AB;
+}
+.AB-TableGropBtn{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 1.2rem;
+}
+.AB-GropBtn-TradeTheOrder{
+    width: 30%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 1.2rem;
+    gap: 2rem;
+    border: 1px solid #212A36;
+    border-radius: 10px;
+}
+.AB-GropBtn-TradeTheOrder button{
+    border: none;
+    outline: none;
+    background: none;
+    color: #A4A8AB;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+}
